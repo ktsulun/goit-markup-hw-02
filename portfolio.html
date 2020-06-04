@@ -4,45 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Portfolio</title>
-  </head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
 
   <body>
     <!--Page header with navigation-->
-    <header>
-      <nav>
+<header>
+    <nav>
         <!--Company logo as a link to main page-->
         <a class="compamy-logo" lang="en" href="./index.html">
-          <span class="company-logo-part1"> Web</span> Studio
+            <span class="company-logo-part1"> Web</span> Studio
         </a>
 
         <!--Navigation to other pages of web-site-->
         <ul class="main-navigation">
-          <li><a class="navigation-item" href="./index.html">Студия</a></li>
-          <li>
-            <a class="navigation-item" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a class="navigation-item" href="#">Контакты</a>
-          </li>
+            <li><a class="navigation-item" href="./index.html">Студия</a></li>
+            <li>
+                <a class="navigation-item" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>
+                <a class="navigation-item" href="#">Контакты</a>
+            </li>
         </ul>
-      </nav>
+    </nav>
 
-      <!--Mailto and callto links of the header-->
-      <ul class="contact-links">
+    <!--Mailto and callto links of the header-->
+    <ul class="contact-links">
         <li>
-          <a class="mailto-link" href="mailto:info@devstudio.com">
-            <span>info@devstudio.com</span>
-          </a>
+            <a class="contact-link-item" href="mailto:info@devstudio.com">
+                <span>info@devstudio.com</span>
+            </a>
         </li>
         <li>
-          <a class="callto-link" href="tel:+380961111111">
-            <span>+38 096 111 11 11</span>
-          </a>
+            <a class="contact-link-item" href="tel:+380961111111">
+                <span>+38 096 111 11 11</span>
+            </a>
         </li>
-      </ul>
-    </header>
-
-    <!--Main content of the page-->
+    </ul>
+</header>
     <main>
       <!--Portfolio section-->
       <section>
@@ -50,11 +50,11 @@
 
         <!--Filter buttons-->
         <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button class="hover" type="button">Все</button></li>
+          <li><button class="hover" type="button">Веб-сайты</button></li>
+          <li><button class="hover" type="button">Приложения</button></li>
+          <li><button class="hover" type="button">Дизайн</button></li>
+          <li><button class="hover" type="button">Маркетинг</button></li>
         </ul>
 
         <!--List of the projects-->
@@ -62,10 +62,10 @@
         <ul>
           <li>
             <a href="#">
-              <img src="./images/portfolio/techno.jpg" alt="Фото команды" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-              <p>
+              <img class="hover" src="./images/portfolio/techno.jpg" alt="Фото команды" />
+              <h2  class="hover">Технокряк</h2>
+              <p  class="hover">Веб-сайт</p>
+              <p  class="hover">
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
@@ -73,7 +73,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/neworlean.jpg"
                 alt="Постер New Orlean vs. Golden Star"
@@ -88,12 +88,12 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/seafood.jpg"
                 alt="Логотип ресторана"
               />
-              <h2>Ресторан<span lang="en">Seafood</span></h2>
+              <h2>Ресторан <span lang="en">Seafood</span></h2>
               <p>Приложение</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
@@ -103,7 +103,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/prime.jpg"
                 alt="Изображение наушников"
@@ -118,12 +118,12 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/boxes.jpg"
                 alt="Изображение коробок"
               />
-              <h2>Проект<span lang="en">Boxes</span></h2>
+              <h2>Проект <span lang="en">Boxes</span></h2>
               <p>Приложение</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
@@ -133,7 +133,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/inspiration.jpg"
                 alt="Изображение монитора"
@@ -148,12 +148,12 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/limited.jpg"
                 alt="Изображение журнала"
               />
-              <h2>Издание<span lang="en">Limited Edition</span></h2>
+              <h2>Издание <span lang="en">Limited Edition</span></h2>
               <p>Дизайн</p>
               <p>
                 Технокряк это современная площадка распространения коронавируса.
@@ -163,7 +163,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img src="./images/portfolio/lab.jpg" alt="Изображение бирки" />
               <h2>Проект <span lang="en">LAB</span></h2>
               <p>Маркетинг</p>
@@ -175,7 +175,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="hover" href="#">
               <img
                 src="./images/portfolio/growing.jpg"
                 alt="Человек за компьютером"
@@ -196,43 +196,41 @@
     </main>
     <!--Footer-->
     <footer>
-      <div class="Contacts">
-        <a class="compamy-logo" href="./index.html"
-          ><span class="company-logo-part1">Web</span>Studio</a
-        >
-        <address>
-          <span>г. Киев, пр-т Леси Украинки, 26</span><br />
-          <span>info@example.com</span><br />
-          <span>+38 099 111 11 11</span>
-        </address>
-      </div>
-
-      <div class="social-media-links">
-        <b>присоединяйтесь</b>
-
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/" aria-label="Ссылка Инстаграм">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com" aria-label="Сыылка Твиттер"> </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/" aria-label="Ссылка Фейсбук">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/" aria-label="Ссылка Линкедин">
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="subscribe">
-        <b>Подпишитесь на рассылку</b>
-      </div>
-      <p>2020&#448;Developed by GoIT Students</p>
+        <div class="Contacts">
+            <a class="compamy-logo" href="./index.html"><span class="company-logo-part1">Web</span>Studio</a>
+            <address>
+                <span>г. Киев, пр-т Леси Украинки, 26</span><br />
+                <span>info@example.com</span><br />
+                <span>+38 099 111 11 11</span>
+            </address>
+        </div>
+    
+        <div class="social-media-links">
+            <b>присоединяйтесь</b>
+    
+            <ul>
+                <li>
+                    <a class="hover" href="https://www.instagram.com/" aria-label="Ссылка Инстаграм">
+                    </a>
+                </li>
+                <li>
+                    <a class="hover" href="https://twitter.com" aria-label="Сыылка Твиттер"> </a>
+                </li>
+                <li>
+                    <a class="hover" href="https://www.facebook.com/" aria-label="Ссылка Фейсбук">
+                    </a>
+                </li>
+                <li>
+                    <aclass="hover" href="https://www.linkedin.com/" aria-label="Ссылка Линкедин">
+                        </a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="subscribe">
+            <b>Подпишитесь на рассылку</b>
+        </div>
+        <p>2020&#448;Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

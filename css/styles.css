@@ -1,0 +1,72 @@
+:root {
+    --primary-text-color: #757575;
+    --title-nav-color: #212121;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #000000;
+    --footer-adress-color: rgba(255, 255, 255, 0.6);
+    --focus-color: #2196F3;
+}
+
+/* General styles */
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    background-color: var(--primary-white-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--title-nav-color)
+}
+
+p {
+    color: var( --primary-text-color)
+}
+
+a::hoover
+/* Header styles */
+
+.compamy-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-black-color)
+}
+
+.company-logo-part1 {
+    color: var(--focus-color)
+}
+
+.main-navigation .navigation-item {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-nav-color)
+}
+
+.contact-links a {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.navigation-item:hover, .contact-link-item:hover, .hover:hover, .navigation-item:focus, .contact-link-item:focus, .hover:focus {
+    color: var(--focus-color);
+}
