@@ -176,3 +176,41 @@ a::hoover {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.4);
 }
+
+/* Portfolio specific page styles */
+
+/* Buttons */
+
+.button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--title-nav-color);
+    background-color: #F5F4FA;
+}
+
+/* List of the projects */
+
+.projects-list h2 {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-type.hover {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/* Temporary styl of project description for visibility */
+
+.project-description {
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    background-color: var(--focus-color);
