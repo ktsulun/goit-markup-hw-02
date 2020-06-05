@@ -24,8 +24,9 @@ a {
     font-family: Roboto;
 }
 
-h1, h2, h3 {
+h2, h3 {
     font-weight: 700;
+    font-family: Roboto;
     color: var(--title-nav-color)
 }
 
@@ -69,4 +70,24 @@ a::hoover
 
 .navigation-item:hover, .contact-link-item:hover, .hover:hover, .navigation-item:focus, .contact-link-item:focus, .hover:focus {
     color: var(--focus-color);
+}
+
+/* Кнопка героя */
+
+.order-service-link {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: var(--focus-color);
+    color: var(--primary-white-color);
+}
+
+.order-service h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
